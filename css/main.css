@@ -1,0 +1,181 @@
+/***** BASE STYLES **********/
+body {
+font-family: 'Raleway', sans-serif;
+}
+
+#about, #skills, #portfolio, #contact {
+	height: 600px;
+	padding-top: 20px;
+}
+
+h1 {
+	font-family: 'Cherry Cream Soda', cursive;
+}
+
+h2 h3 {
+	font-family: 'Playfair Display', serif;
+}
+
+/***** GRID *****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width {
+	width: 600px;
+	float: left;
+}
+.third-width {
+	width: 400px;
+	float:left;
+
+
+
+}
+
+/***** HEADER *******/
+
+header h2{
+	font-size: 25px;
+	font-weight: strong;
+	color: #828282;
+	margin-left: 20px;
+}
+
+nav {
+	margin-top: 10px;
+	margin-left: 1000px;
+	margin-bottom: 20px;
+    padding: 0 32px;
+}
+nav a {
+	display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    margin-left: 80px; 
+}
+
+/***** MAIN *****/
+main {
+	height: 800px;
+	background: url('../img/hero-image.jpeg');
+	background-size: cover;
+	}
+
+main h1{
+	font-size: 70px;
+	padding-top: 390px;
+	padding-left: 510px;
+}
+
+main h2{
+	font-size: 45px;
+	padding-top: 3px;
+	padding-left: 510px;
+}
+/****** ABOUT ******/
+#about h2{
+	font-size: 30px;
+}
+#about p{
+	font-size: 20px;
+	line-height: 29px;
+	text-align: justify;
+}
+
+#about img{
+	border: 10px groove black;
+	margin-left: 200px;
+	}
+
+
+/******* SKILLS *********/
+
+#skills {
+	background-color: #b4cfd9;
+	text-align: center;
+}
+
+#skills h2{
+	text-align: left;
+	font-size: 30px;
+}
+
+#skills h3{
+	font-size: 24px;
+	width: 190px;
+	margin: 0 auto;
+}
+
+
+#skills p{
+	font-size: 18px;
+	line-height: 29px;
+	padding: 0 35px;
+}
+
+/******* PORTFOLIO *******/	
+
+#portfolio {
+	text-align: center;
+}
+
+#portfolio h2{
+	text-align: left;
+	font-size: 30px;
+}
+
+#portfolio h3{
+	font-size: 24px;
+	width: 190px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+#portfolio p{
+	font-size: 18px;
+	line-height: 29px;
+	padding: 0 35px;
+}
+
+#austen {
+	background: #84a1a5;
+	overflow: auto;
+}
+
+#rogue {
+	background:#b4cfd9;
+	overflow: auto;
+}
+
+#cozy {
+	background: #b9c5c9;
+	overflow: auto;
+}
+
+#austen img{
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+#rogue img{
+	padding-top: 20px;
+	padding-bottom: 44px;
+}
+#cozy img{
+	padding-top: 20px;
+}
+
+/****** CONTACT ********/
+
+#contact h2{
+	font-family: 'Cherry Cream Soda', cursive;
+	font-size: 30px;
+	color: #c5657a;
+}
+
+#contact p{
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+}
